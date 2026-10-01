@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FEF2F2",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.myndlab.implementit"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "{{EAS_PROJECT_ID}}"
+      }
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.myndlab.implementit",
+      "supportsTablet": true
+    },
+    "name": "Implement It",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#EF4444",
+          "icon": "./assets/notification-icon.png"
+        }
+      ]
+    ],
+    "scheme": "implement-it",
+    "slug": "implement-it",
+    "splash": {
+      "backgroundColor": "#FEF2F2",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "userInterfaceStyle": "automatic",
+    "version": "1.0.0"
+  }
+}
